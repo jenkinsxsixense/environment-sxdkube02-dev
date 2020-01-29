@@ -1,7 +1,7 @@
 autoUpdate:
   enabled: false
   schedule: ""
-bootConfigURL: https://github.com/jenkinsxsixense/environment-sxdkube02-dev
+bootConfigURL: https://github.com/sxd-platform/environment-sxdkube02-dev
 cluster:
   clusterName: sxdkube02
   devEnvApprovers:
@@ -73,7 +73,4 @@ vault: {}
 velero:
   schedule: ""
   ttl: ""
-versionStream:
-  ref: v1.0.326
-  url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: prow
