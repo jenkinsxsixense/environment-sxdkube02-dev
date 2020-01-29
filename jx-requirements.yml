@@ -1,25 +1,64 @@
+autoUpdate:
+  enabled: false
+  schedule: ""
+bootConfigURL: https://github.com/jenkinsxsixense/environment-sxdkube02-dev
 cluster:
   clusterName: sxdkube02
+  devEnvApprovers:
+  - jenkinsxsixense
   environmentGitOwner: sxd-platform
-  environmentGitPublic: false
-  project: ""
+  gitKind: github
+  gitName: github
+  gitServer: https://github.com
+  namespace: jx
   provider: aks
-  zone: ""
-gitops: true
 environments:
-- key: dev
-- key: staging
-- key: production
+- ingress:
+    domain: sixense-digitalsite.com
+    externalDNS: false
+    namespaceSubDomain: -jx.
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: dev
+  repository: environment-sxdkube02-dev
+- ingress:
+    domain: ""
+    externalDNS: false
+    namespaceSubDomain: ""
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: staging
+  repository: environment-sxdkube02-staging
+- ingress:
+    domain: ""
+    externalDNS: false
+    namespaceSubDomain: ""
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: production
+  repository: environment-sxdkube02-production
+gitops: true
 ingress:
   domain: sixense-digitalsite.com
   externalDNS: false
+  namespaceSubDomain: -jx.
   tls:
     email: ""
     enabled: false
     production: false
 kaniko: true
+repository: nexus
 secretStorage: local
 storage:
+  backup:
+    enabled: false
+    url: ""
   logs:
     enabled: false
     url: ""
@@ -29,7 +68,11 @@ storage:
   repository:
     enabled: false
     url: ""
+vault: {}
+velero:
+  schedule: ""
+  ttl: ""
 versionStream:
-  ref: "master"
+  ref: v1.0.326
   url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: prow
