@@ -1,9 +1,9 @@
 cluster:
-  clusterName: ""
-  environmentGitOwner: ""
+  clusterName: sxdkube02
+  environmentGitOwner: sxd-platform
   environmentGitPublic: false
   project: ""
-  provider: gke
+  provider: aks
   zone: ""
 gitops: true
 environments:
@@ -11,7 +11,7 @@ environments:
 - key: staging
 - key: production
 ingress:
-  domain: ""
+  domain: sixense-digitalsite.com
   externalDNS: false
   tls:
     email: ""
