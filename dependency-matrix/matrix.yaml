@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: sxd-platform
+  repo: byd-forms-back
+  url: https://github.com/sxd-platform/byd-forms-back
+  version: ""
+  versionURL: ""
