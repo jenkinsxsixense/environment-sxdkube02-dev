@@ -12,6 +12,7 @@ cluster:
   gitServer: https://github.com
   namespace: jx
   provider: aks
+  registry: sxdkube02.azurecr.io
 environments:
 - ingress:
     domain: sixense-digitalsite.com
