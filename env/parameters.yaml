@@ -1,0 +1,16 @@
+adminUser:
+  password: local:sxdkube02/adminuser:password
+  username: admin
+enableDocker: false
+gitProvider: github
+gpg: {}
+pipelineUser:
+  github:
+    host: github.com
+    token: local:sxdkube02/pipelineuser-github:token
+    username: jenkinsxsixense
+  username: jenkinsxsixense
+  token: local:sxdkube02/pipelineuser-github:token
+  email: jenkinsxsixense@gmail.com
+prow:
+  hmacToken: local:sxdkube02/pipelineuser-github:token
