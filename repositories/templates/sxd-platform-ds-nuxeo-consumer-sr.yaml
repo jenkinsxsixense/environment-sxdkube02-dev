@@ -3,7 +3,7 @@ kind: SourceRepository
 metadata:
   annotations:
     jenkins.io/last-build-number-for-develop-jx: "1"
-    jenkins.io/last-build-number-for-master: "1"
+    jenkins.io/last-build-number-for-master: "2"
     jenkins.io/last-build-number-for-pr-14: "1"
   creationTimestamp: null
   labels:
