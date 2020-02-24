@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: sxd-platform
-  repo: file-server
-  url: https://github.com/sxd-platform/file-server
+  repo: ds-nuxeo-consumer
+  url: https://github.com/sxd-platform/ds-nuxeo-consumer
   version: ""
   versionURL: ""

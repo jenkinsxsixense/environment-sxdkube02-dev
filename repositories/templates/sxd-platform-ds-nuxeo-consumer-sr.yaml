@@ -1,0 +1,25 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  annotations:
+    jenkins.io/last-build-number-for-develop-jx: "1"
+    jenkins.io/last-build-number-for-master: "1"
+    jenkins.io/last-build-number-for-pr-14: "1"
+  creationTimestamp: null
+  labels:
+    owner: sxd-platform
+    provider: github
+    repository: ds-nuxeo-consumer
+  name: sxd-platform-ds-nuxeo-consumer
+spec:
+  description: Imported application for sxd-platform/ds-nuxeo-consumer
+  httpCloneURL: https://github.com/sxd-platform/ds-nuxeo-consumer
+  org: sxd-platform
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: ds-nuxeo-consumer
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/sxd-platform/ds-nuxeo-consumer

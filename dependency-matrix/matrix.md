@@ -2,4 +2,4 @@
 
 Dependency | Sources | Version | Mismatched versions
 ---------- | ------- | ------- | -------------------
-[sxd-platform/file-server](https://github.com/sxd-platform/file-server) |  | []() | 
+[sxd-platform/ds-nuxeo-consumer](https://github.com/sxd-platform/ds-nuxeo-consumer) |  | []() | 
