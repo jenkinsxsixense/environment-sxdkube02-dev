@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: sxd-platform
+  repo: file-server
+  url: https://github.com/sxd-platform/file-server
+  version: ""
+  versionURL: ""
