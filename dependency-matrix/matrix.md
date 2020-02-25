@@ -2,4 +2,4 @@
 
 Dependency | Sources | Version | Mismatched versions
 ---------- | ------- | ------- | -------------------
-[sxd-platform/myadminsite](https://github.com/sxd-platform/myadminsite) |  | []() | 
+[sxd-platform/ged-chantier](https://github.com/sxd-platform/ged-chantier) |  | []() | 

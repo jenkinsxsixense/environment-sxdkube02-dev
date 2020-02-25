@@ -1,0 +1,76 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  annotations:
+    jenkins.io/last-build-number-for-develop-jx: "90"
+    jenkins.io/last-build-number-for-master: "1"
+    jenkins.io/last-build-number-for-pr-159: "1"
+    jenkins.io/last-build-number-for-pr-160: "3"
+    jenkins.io/last-build-number-for-pr-161: "1"
+    jenkins.io/last-build-number-for-pr-162: "1"
+    jenkins.io/last-build-number-for-pr-163: "1"
+    jenkins.io/last-build-number-for-pr-164: "1"
+    jenkins.io/last-build-number-for-pr-165: "1"
+    jenkins.io/last-build-number-for-pr-166: "2"
+    jenkins.io/last-build-number-for-pr-167: "1"
+    jenkins.io/last-build-number-for-pr-168: "1"
+    jenkins.io/last-build-number-for-pr-169: "1"
+    jenkins.io/last-build-number-for-pr-170: "1"
+    jenkins.io/last-build-number-for-pr-171: "1"
+    jenkins.io/last-build-number-for-pr-172: "1"
+    jenkins.io/last-build-number-for-pr-173: "1"
+    jenkins.io/last-build-number-for-pr-174: "1"
+    jenkins.io/last-build-number-for-pr-175: "1"
+    jenkins.io/last-build-number-for-pr-176: "3"
+    jenkins.io/last-build-number-for-pr-177: "1"
+    jenkins.io/last-build-number-for-pr-178: "1"
+    jenkins.io/last-build-number-for-pr-179: "2"
+    jenkins.io/last-build-number-for-pr-180: "1"
+    jenkins.io/last-build-number-for-pr-181: "1"
+    jenkins.io/last-build-number-for-pr-182: "1"
+    jenkins.io/last-build-number-for-pr-183: "1"
+    jenkins.io/last-build-number-for-pr-184: "1"
+    jenkins.io/last-build-number-for-pr-185: "1"
+    jenkins.io/last-build-number-for-pr-186: "2"
+    jenkins.io/last-build-number-for-pr-187: "1"
+    jenkins.io/last-build-number-for-pr-188: "1"
+    jenkins.io/last-build-number-for-pr-189: "1"
+    jenkins.io/last-build-number-for-pr-190: "3"
+    jenkins.io/last-build-number-for-pr-191: "2"
+    jenkins.io/last-build-number-for-pr-192: "3"
+    jenkins.io/last-build-number-for-pr-193: "1"
+    jenkins.io/last-build-number-for-pr-194: "2"
+    jenkins.io/last-build-number-for-pr-195: "1"
+    jenkins.io/last-build-number-for-pr-196: "2"
+    jenkins.io/last-build-number-for-pr-197: "5"
+    jenkins.io/last-build-number-for-pr-198: "4"
+    jenkins.io/last-build-number-for-pr-199: "1"
+    jenkins.io/last-build-number-for-pr-200: "1"
+    jenkins.io/last-build-number-for-pr-201: "1"
+    jenkins.io/last-build-number-for-pr-202: "1"
+    jenkins.io/last-build-number-for-pr-203: "5"
+    jenkins.io/last-build-number-for-pr-204: "2"
+    jenkins.io/last-build-number-for-pr-205: "1"
+    jenkins.io/last-build-number-for-pr-206: "1"
+    jenkins.io/last-build-number-for-pr-207: "1"
+    jenkins.io/last-build-number-for-pr-208: "1"
+    jenkins.io/last-build-number-for-pr-209: "1"
+    jenkins.io/last-build-number-for-pr-210: "1"
+  creationTimestamp: null
+  labels:
+    owner: sxd-platform
+    provider: github
+    repository: ged-chantier
+  name: sxd-platform-ged-chantier
+spec:
+  description: Imported application for sxd-platform/ged-chantier
+  httpCloneURL: https://github.com/sxd-platform/ged-chantier
+  org: sxd-platform
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: ged-chantier
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/sxd-platform/ged-chantier
