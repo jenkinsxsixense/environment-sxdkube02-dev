@@ -74,14 +74,6 @@ pipelineConfig:
             dir: /workspace/source/env
             name: validate-git
           - args:
-            - step
-            - verify
-            - preinstall
-            - --provider-values-dir="kubeProviders"
-            command: jx
-            dir: /workspace/source
-            name: verify-preinstall
-          - args:
             - upgrade
             - crd
             command: jx
@@ -236,13 +228,6 @@ pipelineConfig:
             command: jx
             dir: /workspace/source/env
             name: install-jenkins-x
-          - args:
-            - step
-            - verify
-            - env
-            command: jx
-            dir: /workspace/source
-            name: verify-jenkins-x-environment
           - args:
             - step
             - helm
